@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #353535;
+    line-height: 1.6;
+    
+}
+
+
+header {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+header .logo img {
+    margin: 0 auto;
+    width: 20%;
+    margin-bottom: 20px
+}
+
+header h3 {
+    text-align: center;
+    box-sizing: border-box;
+    text-rendering: optimizeSpeed;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    color: #000;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-align: center;
+    text-rendering: optimizeSpeed;
+    font-size: 30px;
+    line-height: 1;
+    color: #fff;
+    background-color: rgba(119, 142, 24, 0.7);
+    padding: 20px;
+    font-weight: 700;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 12px;
+    font-size: 8px;
+    color: #7D7D7D;
+    padding: 5px;
+}
+
+nav :hover {
+    color: #353535;
+}
+
+
+.banner img {
+    height: 30%;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover,
+.next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+.price div div p{
+    color: #626570;
+    border-bottom: dotted 1px #626570;
+    font-size: 1.2em;
+    padding: 10px 0;
+    
+}
+.price div div button {
+    width: 100%;
+    padding: 4px 0;
+    background: #2B2D35 !important;
+    color: aliceblue;
+}
+footer .footer-content p {
+    color: #777;
+    font-size: 14px;
+}
+
+
+.lh section div {
+    background-color: rgb(133, 155, 143);
+    border-radius: 10px;
+    border: 1px solid #2B2D35;
+}
+
